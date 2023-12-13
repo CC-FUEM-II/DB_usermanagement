@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS mydb.countries;
+uDROP TABLE IF EXISTS mydb.countries;
 
 CREATE TABLE mydb.countries (
   id INT NOT NULL AUTO_INCREMENT,

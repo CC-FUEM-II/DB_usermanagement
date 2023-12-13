@@ -9,11 +9,14 @@ CREATE TABLE mydb.employees (
   employee_id INT
 );
 
-DESCRIBE mydb.employees
+DESCRIBE mydb.employees;
 
-NSERT INTO mydb.employees (name, surname, age, salary, employee_id)
+/*
+   */
+   
+INSERT INTO mydb.employees (name, surname, age, salary, employee_id)
 VALUES
-  ('John', 'Doe', 25, 50000.00, 123),
+  ('Tann', 'Doe', 25, 50000.00, 123),
   ('Jane', 'Doe', 30, 60000.00, 456),
   ('Bob', 'Smith', 40, 75000.00, 789),
   ('Alice', 'Johnson', 35, 65000.00, 234),
@@ -24,4 +27,8 @@ VALUES
   ('David', 'Taylor', 38, 72000.00, 987),
   ('Karen', 'Wilson', 42, 78000.00, 432);
   
+
+  
   SELECT * FROM mydb.employees;
+  
+ 
