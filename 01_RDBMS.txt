@@ -14,3 +14,13 @@ mysql-ctl cli
 
 // MySQL DB-CLI exit
 exit
+
+// SQL-Command
+
+CREATE DATABASE IF NOT EXISTS mydb;
+
+use mysql
+
+show tables
+
+SELECT user();
